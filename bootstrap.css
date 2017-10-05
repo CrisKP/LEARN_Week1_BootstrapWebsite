@@ -1,24 +1,35 @@
-.learn {
-  width: 150px;
-  height: 100px;
+body {
+  background-color: teal;
 }
+
+.jumbotron {
+  background-color: aqua;
+}
+
+.navbar {
+  background-color: lightgreen;
+}
+
 h1 {
   text-align: center;
 }
-.col-md-1{
-  height: 100px;
+
+.vis{
+  height: 250px;
+  /*width: 250px;*/
   background-color: #999999;
   color: black;
   text-align: center;
   border: 2px solid black;
 }
-.col-md-1-invis{
-  height: 100px;
-  border: 2px;
-  border-style: hidden;
-  text-align: center;
-}
+
 .logos {
-  width: 60px;
-  height: 60px;
+  width: 150px;
+  height: 150px;
+}
+.boxes {
+  display: flex;
+}
+.box1 {
+  align-content: center;
 }
